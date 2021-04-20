@@ -3,11 +3,11 @@ require_relative '../lib/03_basics'
 describe 'who is the biggest number' do
   # Hint: 'def who_is_bigger(a, b, c)'
   it 'tells me the biggest' do
-    expect(who_is_bigger(84, 42, nil)).to eq("nil detected")
-    expect(who_is_bigger(nil, 42, 21)).to eq("nil detected")
-    expect(who_is_bigger(84, 42, 21)).to eq("a is bigger")
-    expect(who_is_bigger(42, 84, 21)).to eq("b is bigger")
-    expect(who_is_bigger(42, 21, 84)).to eq("c is bigger")
+    expect(who_is_bigger(67, 56, nil)).to eq("nil detected")
+    expect(who_is_bigger(nil, 89, 56)).to eq("nil detected")
+    expect(who_is_bigger(44, 56, 56)).to eq("a is bigger")
+    expect(who_is_bigger(78, 77, 98)).to eq("b is bigger")
+    expect(who_is_bigger(67, 65, 64)).to eq("c is bigger")
   end
 end
 
