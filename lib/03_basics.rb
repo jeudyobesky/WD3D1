@@ -14,6 +14,7 @@ def who_is_bigger(a, b, c)
 
 
 end
+
 end
 
 def reverse_upcase_noLTA(list)
